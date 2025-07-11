@@ -1,0 +1,123 @@
+Instrucciones Detalladas Paso 1 – Creación Inicial del Deck-Web (Airontech Pitch)
+🔹 Objetivo del proyecto
+Desarrollar un deck interactivo y visualmente impactante para presentar Airontech a inversionistas. Debe ser profesional, claro y elegante.
+
+🔹 Stack tecnológico requerido
+Usa estrictamente estas tecnologías:
+
+Next.js con React y TypeScript (por rendimiento, SEO y facilidad de escalabilidad).
+
+Tailwind CSS (para estilos rápidos, limpios y profesionales).
+
+Framer Motion (para animaciones suaves y modernas).
+
+Google Fonts: preferentemente Montserrat o Inter.
+
+ESLint configurado para mantener código ordenado.
+
+🔹 Organización de archivos inicial
+Organiza claramente desde el inicio el proyecto con esta estructura específica:
+
+css
+Copiar
+Editar
+root/
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Layout.tsx
+│   │   └── SlideIntro.tsx
+│   ├── pages/
+│   │   └── index.tsx
+│   ├── styles/
+│   │   └── globals.css (con Tailwind configurado)
+│   └── assets/
+│       └── images/ (para imágenes y logos)
+🔹 Layout principal
+Crea un componente <Layout /> que será reutilizado en todas las páginas del deck:
+
+Header:
+
+Logo placeholder (imagen dummy por ahora).
+
+Título centralizado con texto:
+"Airontech – Innovación Tecnológica Minera"
+
+Menú horizontal simple:
+["Introducción", "Ventajas", "Portafolio", "Seguridad", "Finanzas", "Inversión", "Contacto"]
+
+Footer:
+
+Año actual dinámico (usando JS).
+
+Texto pequeño: "Airontech © 2025. Todos los derechos reservados."
+
+Links rápidos a LinkedIn, Email, Teléfono (usando placeholders por ahora).
+
+Cuerpo principal:
+
+Área central ocupando viewport completo (fullscreen, 100vh).
+
+Fondo oscuro (#111827) con texto claro (#FFFFFF).
+
+🔹 Primer slide introductorio
+Crea un componente llamado <SlideIntro />, integrado en la página inicial (index.tsx):
+
+Fondo oscuro con degradado elegante o una imagen industrial-minera de fondo (placeholder por ahora).
+
+Texto centralizado con animación suave tipo fade-in (Framer Motion):
+
+Título principal:
+“Airontech: Innovación Tecnológica Minera”
+
+Subtítulo debajo (tamaño menor):
+“Pitch Deck para Inversionistas”
+
+Fecha actual generada dinámicamente (JS).
+
+Añade un botón interactivo debajo del texto que diga claramente:
+"Descubre más", con animación hover sutil. Al hacer clic, debe deslizar automáticamente la vista a la siguiente sección (por ahora que haga un simple console.log para probar).
+
+🔹 Detalles visuales (IMPORTANTE)
+Usa Tailwind para un diseño limpio, con fuentes modernas y tamaño grande para fácil lectura.
+
+Tipografía recomendada: Montserrat o Inter (Google Fonts).
+
+Paleta sugerida (elegante, profesional y tecnológica):
+
+Fondo: gris oscuro (#111827 o similar)
+
+Textos principales: blanco (#FFFFFF)
+
+Acentos: azul eléctrico (#3B82F6) o verde corporativo (#10B981)
+
+Asegúrate que el layout sea 100% responsive (escritorio, tablet y móvil).
+
+🔹 Interactividad básica
+El slide debe ocupar toda la pantalla del usuario y ajustarse automáticamente.
+
+Asegura que el scroll esté bloqueado inicialmente y que la interacción sea únicamente mediante botones o teclas (flechas arriba y abajo).
+
+🔹 Criterios de éxito
+Al terminar este paso, verifica claramente:
+
+Proyecto Next.js funcional.
+
+Tailwind correctamente configurado.
+
+Framer Motion animando entrada de textos y botón.
+
+SlideIntro perfectamente visible y centrado.
+
+Responsividad validada en escritorio y móvil.
+
+Código limpio y organizado según estructura.
+
+🔔 IMPORTANTE:
+Confirma explícitamente en el chat de Replit cuando finalices exitosamente este paso.
+
+Cuando esté listo, vuelve conmigo y avanzamos al Paso 2.
+
+✅ Ahora entrega esto directamente a Replit.
+¡Listo para que partamos este deck impresionante!

@@ -1,0 +1,214 @@
+AngloAmerican – Robots Inspección Cinta Transportadora (detalle técnico)
+Tecnología
+
+Robots autónomos semiautónomos sobre riel
+
+Sensores multiespectrales para análisis de cortes, desgaste, fisuras
+
+Cámara HD + visión IA para detección de anomalías
+
+Integración con SCADA / PLC de la faena vía MQTT o protocolo OPC UA
+
+Capacidad de reporte en línea y generación de alertas
+
+Funcionalidades
+
+Recorridos programados y adaptativos
+
+Reconocimiento de roturas de empalmes
+
+Control de alineación de la cinta
+
+Reporte de vibraciones y ruidos anómalos
+
+Fotos y videos con timestamp y ubicación exacta
+
+Beneficios operacionales
+
+Reducción paradas no programadas > 35%
+
+Aumento disponibilidad operativa > 90%
+
+Mayor seguridad (menos ingreso humano en zonas peligrosas)
+
+Registro auditable y trazable para inspecciones regulatorias
+
+🔶 BHP Spence – Warehouse AI (detalle técnico)
+Tecnología
+
+Cámaras IA con visión computacional
+
+Modelos de reconocimiento de stock con redes neuronales
+
+Integración con ERP (SAP, Oracle, Infor) vía APIs
+
+Sistema de inventario en tiempo real
+
+Gateways IoT para lectura de tags RFID o códigos QR
+
+Dashboard con KPIs de inventario, lead time, rotación
+
+Funcionalidades
+
+Recepción automatizada
+
+Validación contra pedidos y facturas
+
+Control de entradas y salidas
+
+Alertas de stock bajo
+
+Auditoría automática de picking
+
+Beneficios operacionales
+
+Ahorro de 25–30% en costos de inventario
+
+Reducción pérdidas de productos
+
+Trazabilidad total
+
+Cumplimiento normativo (seguridad minera, ISO)
+
+🔶 BHP Spence – Luminarias IoT (detalle técnico)
+Tecnología
+
+Redes inalámbricas mesh ZigBee / LoRa
+
+Controladores de potencia con protocolo DALI
+
+Monitoreo remoto vía cloud
+
+Sensorización: movimiento, luminosidad, temperatura
+
+Alarmas ante fallas
+
+Funcionalidades
+
+Encendido inteligente según presencia
+
+Ahorro energético programado
+
+Reporte consumo en línea
+
+Integración con plataformas de sostenibilidad corporativa
+
+Beneficios operacionales
+
+Reducción costos eléctricos
+
+Mejor seguridad perimetral
+
+Menor mantenimiento correctivo
+
+Contribuye a certificaciones carbono neutral
+
+🔶 HotelCommander (detalle técnico)
+Tecnología
+
+Plataforma web y mobile
+
+Base de datos centralizada (PostgreSQL / MySQL)
+
+Integración con sistemas de RRHH y seguridad faena
+
+Módulo de check-in/check-out digital
+
+Gestión de fichas médicas y protocolos COVID
+
+Control de alimentación y turnos
+
+Funcionalidades
+
+Asignación de habitaciones automatizada
+
+Alertas de sobrecupo
+
+Gestión de transportes a campamento
+
+Reportes de estadía y rotación
+
+API para interoperabilidad con sistemas mineros
+
+Beneficios operacionales
+
+Ahorro logístico
+
+Mayor control del personal
+
+Prevención de contagios / protocolos sanitarios
+
+Reducción de conflictos laborales por asignaciones
+
+🔶 RecetApp (detalle técnico)
+Tecnología
+
+Plataforma SaaS con nube segura (AWS / Azure)
+
+Certificación de privacidad HL7 / HIPAA
+
+Módulo receta electrónica digital
+
+Control de stocks en línea
+
+Interfaz con mutualidades / clínicas
+
+Funcionalidades
+
+Validación de recetas médicas
+
+Control de caducidad de medicamentos
+
+Reporte de dispensación en tiempo real
+
+Integración con compras centralizadas
+
+Beneficios operacionales
+
+Disminución de quiebres de stock
+
+Reducción de pérdidas en farmacia
+
+Mejor trazabilidad de medicamentos
+
+Cumplimiento normativo (ISP / Ministerio de Salud)
+
+🔶 ESTRATEGIA FINANCIERA (detalle complementario)
+Inversión inicial (12 meses):
+
+~USD 500.000 (CLP $495 millones)
+
+Distribución:
+
+76% personal y operación
+
+12% desarrollo tecnológico
+
+6% hardware
+
+6% marketing y legal
+
+Proyección mes 12:
+
+ingresos mensuales estabilizados: USD ~180K
+
+utilidad neta proyectada: USD ~140K
+
+payback estimado: 6–8 meses
+
+flujo positivo desde mes 4
+
+Proyección mes 24:
+
+meta USD 1 millón mensual
+
+contratos tipo Anglo (robots), BHP (warehouses), HotelCommander, RecetApp, vertical seguridad
+
+complementado con 2–3 contratos adicionales en fase 2
+
+GAP para llegar a 1M mensual:
+
+~USD 800K mensuales a cerrar en 12–24 meses
+
+estrategia: reinversión + socios industriales
+

@@ -1,0 +1,69 @@
+Instrucciones Detalladas – Paso 8: Detalles Finales y Optimización General del Deck
+
+Objetivo del Paso:
+Realizar ajustes finales para asegurar que el deck-web completo esté optimizado, profesional y listo para presentación inmediata.
+
+Acciones específicas a realizar:
+
+1. Navegación Fluida:
+
+Implementar navegación completa entre slides mediante:
+
+Menú superior funcional que lleve directamente a cada slide.
+
+Navegación por teclado (flechas arriba y abajo).
+
+Scroll suave entre secciones.
+
+2. Optimización de Rendimiento:
+
+Revisar que todas las imágenes e iconos estén optimizados para rápida carga.
+
+Implementar Lazy-loading para imágenes o gráficos que aparezcan en scroll.
+
+3. SEO Básico (Next.js):
+
+Añadir etiquetas SEO básicas usando <Head> en Next.js:
+
+<title>Airontech | Pitch para Inversionistas</title>
+
+<meta name="description" content="Pitch deck interactivo de Airontech, líder en soluciones tecnológicas para la minería chilena.">
+
+Etiquetas Open Graph básicas (og:title, og:description).
+
+4. Animaciones y Experiencia de Usuario:
+
+Revisar que todas las animaciones (Framer Motion) sean sutiles, consistentes y fluidas.
+
+Asegurar que no haya retrasos excesivos en las animaciones ni interrupciones en la interacción.
+
+5. Formulario o interacción del CTA (opcional, recomendado):
+
+Si es posible, implementar formulario simple en el slide de contacto o un botón que abra directamente una ventana de correo con asunto predefinido ("Interés en Invertir en Airontech").
+
+6. Descarga de PDF (Opcional Avanzado):
+
+(Opcional pero recomendado) Implementar botón sencillo en footer o slide final que permita descargar un PDF resumen (contenido básico copiado de los slides en un PDF generado dinámicamente o PDF ya preparado).
+
+Diseño y Responsividad Final:
+
+Realizar revisión final del diseño en pantallas Desktop, Tablet y Mobile, asegurando coherencia visual, profesionalismo y que ningún texto quede cortado o ilegible.
+
+Criterios finales de Éxito:
+
+Navegación totalmente funcional y fluida.
+
+Deck optimizado para rendimiento y carga rápida.
+
+SEO básico implementado.
+
+Todas las animaciones suaves y profesionales.
+
+Responsividad validada en todos los dispositivos.
+
+Call to action perfectamente funcional.
+
+IMPORTANTE:
+Confirma claramente en Replit cuando completes este último Paso 8.
+
+Luego revisaremos en conjunto si es necesaria alguna mejora o ajuste final adicional.

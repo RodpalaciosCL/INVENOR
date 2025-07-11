@@ -1,0 +1,153 @@
+Para que el usuario perciba con claridad que el timeline se está desplazando solo, puedes combinar varios de estos trucos:
+
+1. Aumentar la velocidad (pero con easing)
+Subir de 2px/frame a 4–6px/frame makes it more perceptible.
+
+Cambia behavior: 'auto' por un suavizado:
+
+js
+Copiar
+Editar
+el.scrollBy({ left: speed, behavior: 'smooth' });
+O usa un easing leve con setInterval en lugar de requestAnimationFrame:
+
+js
+Copiar
+Editar
+const step = () => {
+  if (!isPaused) {
+    el.scrollLeft += speed; // p.ej. 60px/s divididos en 60fps ⇒ 1px/frame
+  }
+};
+setInterval(step, 1000 / 30); // 30fps más marcado
+2. Añadir “colas” o gradientes en los bordes
+Coloca dos div superpuestos al contenedor, con un fade de negro/transparente en izquierda y derecha. Así el contenido que se mueve resalta “atravesando” ese degradado.
+
+css
+Copiar
+Editar
+.slider-container {
+  position: relative;
+}
+.slider-container::before,
+.slider-container::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 4rem;
+  pointer-events: none;
+  z-index: 10;
+}
+.slider-container::before {
+  left: 0;
+  background: linear-gradient(to right, var(--dark-bg), transparent);
+}
+.slider-container::after {
+  right: 0;
+  background: linear-gradient(to left, var(--dark-bg), transparent);
+}
+3. Indicador de progreso o “dots”
+Bajo el slider, muestra una barra de progreso o puntos que avancen al ritmo del scroll:
+
+tsx
+Copiar
+Editar
+// dentro de tu componente
+const [progress, setProgress] = useState(0);
+
+useEffect(() => {
+  const onScroll = () => {
+    const el = scrollRef.current!;
+    setProgress(el.scrollLeft / (el.scrollWidth - el.clientWidth));
+  };
+  el.addEventListener('scroll', onScroll);
+  return () => el.removeEventListener('scroll', onScroll);
+}, []);
+
+return (
+  <>
+    <div className="progress-bar bg-gray-700 h-1">
+      <div
+        className="bg-[var(--accent-orange)] h-full"
+        style={{ width: `${progress * 100}%` }}
+      />
+    </div>
+    {/* aquí tu slider */}
+  </>
+)
+4. Scroll-snap para “anclar” cada card
+Con CSS scroll-snap, cuando el usuario suelte el scroll o al completar la animación, la tarjeta se alinea perfectamente, reforzando la sensación de “paso”:
+
+css
+Copiar
+Editar
+.slider {
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+}
+.slider > * {
+  scroll-snap-align: start;
+}
+5. Flechas animadas que indiquen movimiento
+Un pequeño icono de flecha derecha que pulse o se desplace en bucle, pegado al borde derecho, refuerza “esto está corriendo”:
+
+jsx
+Copiar
+Editar
+<motion.div
+  animate={{ x: [0, -10, 0] }}
+  transition={{ repeat: Infinity, duration: 1.5 }}
+  className="absolute right-4 top-1/2 text-[var(--accent-orange)]"
+>
+  <ChevronRight size={24} />
+</motion.div>
+6. Auto-restart con “bounce”
+En lugar de un salto inmediato al inicio, al llegar al final haz un pequeño rebote atrás:
+
+js
+Copiar
+Editar
+if (el.scrollLeft + el.clientWidth >= el.scrollWidth) {
+  // rebote
+  el.scrollBy({ left: -50, behavior: 'smooth' });
+  setTimeout(() => {
+    el.scrollTo({ left: 0, behavior: 'smooth' });
+  }, 300);
+}
+Combinación sugerida
+Velocity: 4px/frame con smooth
+
+Gradientes en izquierda/derecha
+
+barra de progreso bajo el scroll
+
+scroll-snap en cada tarjeta
+
+flecha animada a la derecha
+
+Así, el usuario verá claramente:
+
+El contenedor se mueve rápido y suavizado.
+
+El fade refuerza dirección.
+
+La barra de progreso avanza.
+
+Al tocarlo, se detiene y los bordes aparecen sólidos.
+
+Con estos añadidos, el auto-scroll será innegable y permanecerá respetando la pausa al interactuar.
+
+
+
+
+
+
+
+
+
+
+
+
+Herramientas
+
+

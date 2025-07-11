@@ -1,0 +1,100 @@
+Instrucciones Detalladas – Paso 7: Slide Equipo Ejecutivo y Call to Action
+
+Objetivo del Slide:
+Presentar claramente al equipo ejecutivo de Airontech, destacando el liderazgo de Rodrigo Palacios, y generar una clara llamada a la acción para motivar contacto inmediato con inversionistas potenciales.
+
+Ubicación del Slide:
+Crear inmediatamente después del slide "Oportunidad de Inversión y Uso de Fondos" (<SlideOportunidadInversion />).
+Nombrar el nuevo componente:
+<SlideEquipoContacto />
+
+Estructura y Contenido Exacto del Slide:
+
+Título Principal (centrado):
+"Equipo Ejecutivo y Contacto"
+
+Contenido Principal:
+
+Perfil Rodrigo Palacios (Managing Director):
+
+Nombre claramente destacado: "Rodrigo Palacios"
+
+Cargo: "Managing Director, Airontech"
+
+Breve descripción (incluir exactamente este texto):
+"Ejecutivo senior con más de 18 años liderando innovación tecnológica en minería e industrias críticas. Ex consultor Big Four con amplia experiencia en inteligencia artificial, robótica, innovación y transformación digital industrial."
+
+Breve resumen equipo ejecutivo general:
+"Nuestro equipo senior posee una amplia red de contactos con C-Level minero, expertise tecnológico profundo y probada capacidad de ejecución estratégica."
+
+Call to Action (claramente destacado):
+
+Texto principal grande y visible:
+"Conversemos y multipliquemos juntos el valor de tu inversión."
+
+Datos de contacto claramente visibles debajo:
+
+Nombre: Rodrigo Palacios
+
+Cargo: Managing Director
+
+Email: [agregar email aquí]
+
+LinkedIn: [agregar perfil LinkedIn aquí]
+
+Teléfono: [agregar teléfono aquí]
+
+Botón destacado para interacción:
+
+Texto botón: "Contactar Ahora"
+
+Al hacer clic debe abrir directamente correo electrónico o formulario simple (por ahora acción placeholder).
+
+Diseño Visual:
+
+Mantener coherencia visual con todo el deck: fondo oscuro (#111827), texto blanco, acentos corporativos.
+
+Utilizar tarjetas claras para perfil del ejecutivo y CTA.
+
+Texto fácil de leer con fuentes consistentes (Montserrat o Inter).
+
+Animaciones:
+
+Aplicar animaciones suaves con Framer Motion (fade-in, slide-up) al aparecer texto y botones.
+
+Responsividad e interacción:
+
+Validar visualización perfecta en desktop, tablets y móviles.
+
+CTA claramente visible y fácil de interactuar en cualquier dispositivo.
+
+Criterios de Éxito:
+
+Componente <SlideEquipoContacto /> claramente creado y estructurado en carpeta correspondiente.
+
+Integrado correctamente en flujo general después del slide de inversión.
+
+Responsividad y visualización validada completamente.
+
+Call to action claramente visible, profesional y funcional.
+
+Animaciones correctamente implementadas.
+
+IMPORTANTE:
+Confirma en Replit claramente cuando completes este Paso 7 para seguir con detalles finales.
+
+
+
+
+
+
+
+
+
+
+
+Herramientas
+
+
+
+ChatGPT puede cometer errores. Considera verificar la información importante.

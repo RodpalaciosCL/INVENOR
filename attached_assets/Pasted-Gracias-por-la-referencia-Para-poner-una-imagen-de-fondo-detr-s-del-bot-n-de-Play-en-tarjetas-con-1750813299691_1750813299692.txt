@@ -1,0 +1,49 @@
+Gracias por la referencia. Para poner una imagen de fondo detrás del botón de "Play" en tarjetas con video en React (como las de tu plataforma en Replit), te doy a continuación el método más confiable, limpio y compatible para evitar problemas de CORS, render y estilos.
+
+✅ Método recomendado: div con background-image y botón superpuesto
+jsx
+Copiar
+Editar
+<div
+  className="relative w-full h-64 rounded-xl overflow-hidden bg-cover bg-center"
+  style={{
+    backgroundImage: `url("https://cdn.prod.website-files.com/668026bd6ba918352b4b09d2/668c1c12e8a58030d5568f21_642d7a5f4d77d19c2f6fa8c2_xzGehktapAgabSW56yhCmigLzY3uCWACMrR6p4lkLfw.jpeg")`
+  }}
+>
+  <button
+    className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 hover:bg-opacity-60 transition"
+    onClick={() => {/* tu lógica para mostrar video */}}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-12 h-12 text-white"
+      fill="currentColor"
+      viewBox="0 0 16 16"
+    >
+      <path d="M10.804 8.5 6 11V6l4.804 2.5z"/>
+    </svg>
+  </button>
+</div>
+🧠 Explicación:
+div con backgroundImage evita usar <img> y previene problemas de CORS (si la URL es directa y pública).
+
+relative permite posicionar el botón con absolute inset-0.
+
+bg-cover y bg-center hacen que la imagen se vea bien en cualquier tamaño.
+
+El botón cubre todo el contenedor, mostrando un fondo negro semitransparente y el ícono de play en el centro.
+
+🧪 URLs específicas para tu caso:
+🔸 Robot ANYmal (Angloamerican)
+js
+Copiar
+Editar
+backgroundImage: url("https://www.anybotics.com/wp-content/uploads/2019/08/anymal-c-legged-robot-inspection-transparent.png")
+🔸 Smart Warehouse (BHP)
+js
+Copiar
+Editar
+backgroundImage: url("https://cdn.prod.website-files.com/668026bd6ba918352b4b09d2/668c1c12e8a58030d5568f21_642d7a5f4d77d19c2f6fa8c2_xzGehktapAgabSW56yhCmigLzY3uCWACMrR6p4lkLfw.jpeg")
+✅ Alternativas si estás usando Tailwind sin CSS personalizado:
+Asegúrate que tu Replit tenga activado el Tailwind y no está bloqueando style={{ backgroundImage }}. En ese caso, puedes también usar utilidades personalizadas en tailwind.config.js, pero el método anterior es más directo.
+

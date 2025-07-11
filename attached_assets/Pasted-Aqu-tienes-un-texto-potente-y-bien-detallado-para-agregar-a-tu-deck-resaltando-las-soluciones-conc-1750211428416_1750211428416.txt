@@ -1,0 +1,190 @@
+Aquí tienes un texto potente y bien detallado para agregar a tu deck, resaltando las soluciones concretas y listas para comercializar (**ready-to-sell**) que Airontech tiene para la minería. Luego te entregaré la instrucción completa y detallada para pasar directamente como **Paso 2** a Replit.
+
+---
+
+## 🚀 **Soluciones Ready-to-Sell Airontech para la Minería**
+
+Airontech ofrece soluciones tecnológicas ya desarrolladas, validadas y listas para ser implementadas inmediatamente en la industria minera (**ready-to-sell**). Nuestros productos resuelven necesidades críticas, incrementan eficiencia operativa, seguridad y productividad en las faenas mineras:
+
+---
+
+### 🏨 **HotelCommander**
+
+* **Gestión integral hotelera para campamentos mineros:**
+  Sistema digital que automatiza procesos clave como:
+
+  * Check-in/check-out digital y en tiempo real.
+  * Administración eficiente de habitaciones y capacidad hotelera.
+  * Gestión y control de contratistas.
+  * Reportes automáticos y dashboard de ocupación.
+  * Mejora drásticamente la experiencia del trabajador y reduce costos operacionales.
+
+---
+
+### 📲 **SafeApp**
+
+* **Plataforma integral para seguridad minera:**
+  Digitaliza procesos clave para prevenir accidentes, facilitar auditorías y trazabilidad:
+
+  * Checklist digitales personalizados por actividad.
+  * Registro inmediato de incidentes, generación automática de reportes.
+  * Trazabilidad completa de equipos de protección personal (EPP).
+  * Alertas en tiempo real sobre condiciones inseguras.
+  * Reducción comprobada en tasa de accidentes.
+
+---
+
+### 📦 **WAIhouse**
+
+* **Automatización avanzada para bodegas mineras (Warehouse AI):**
+  Usa visión computacional e inteligencia artificial para optimizar:
+
+  * Control automático de inventarios en tiempo real.
+  * Reconocimiento visual automático de productos y equipos.
+  * Reducción significativa de errores operacionales.
+  * Integración simple con sistemas ERP existentes (SAP, Oracle, etc.).
+  * Totalmente escalable a todas las bodegas mineras.
+
+---
+
+### 🌐 **Mining360**
+
+* **Plataforma unificada de gestión minera (end-to-end insights):**
+  Centraliza y visualiza información estratégica clave para una operación minera completa:
+
+  * Dashboard centralizado con indicadores claves (KPIs operativos y estratégicos).
+  * Control en tiempo real de procesos críticos.
+  * Seguimiento inmediato de activos y personal.
+  * Acceso directo a insights de negocio basados en IA y Big Data.
+  * Incrementa eficiencia y rentabilidad con decisiones basadas en datos.
+
+---
+
+## 🔥 **Instrucciones Detalladas Paso 2 (para entregar directamente a Replit)**
+
+Envía exactamente lo siguiente al equipo de Replit para que lo implemente claramente como segundo slide del deck interactivo:
+
+---
+
+# ⚙️ **Instrucciones Detalladas - Paso 2: Slide "Soluciones Ready-to-Sell" Airontech**
+
+### 🟩 **Objetivo del Slide**
+
+Mostrar claramente al inversionista que Airontech ya tiene productos terminados, validados por clientes mineros reales, y listos para su comercialización inmediata.
+
+### 🟩 **Ubicación del Slide**
+
+Este slide debe venir inmediatamente después del slide introductorio (**SlideIntro**).
+
+### 🟩 **Componentes del Slide**
+
+Crea un nuevo componente React llamado `<SlideReadyToSell />` en `src/components/`.
+
+Este componente debe contener:
+
+* **Título principal centralizado**:
+
+  > "Soluciones Ready-to-Sell para la Minería"
+
+* **Subtítulo breve debajo** (texto más pequeño, centrado):
+
+  > "Productos tecnológicos validados y listos para comercializar"
+
+* **Layout en grid (2 columnas responsive)** para mostrar claramente cada producto (en móvil apilar verticalmente).
+
+---
+
+## 📌 **Contenido y Diseño de cada Producto (detalle exacto):**
+
+Cada producto se debe mostrar como una tarjeta interactiva claramente diferenciada:
+
+**Estructura visual sugerida para cada tarjeta:**
+
+* Icono o imagen placeholder arriba (relacionado con la solución).
+* Nombre destacado en tamaño grande.
+* Breve descripción en bullets o puntos clave (muy claro y legible).
+
+---
+
+### 🔹 **Tarjeta Producto 1: HotelCommander**
+
+* **Icono sugerido:** edificio/hotel
+* **Bullets a mostrar claramente:**
+
+  * Gestión hotelera integral de campamentos.
+  * Check-in digital y automatizado.
+  * Control eficiente de contratistas y habitaciones.
+  * Dashboards de ocupación en tiempo real.
+
+---
+
+### 🔹 **Tarjeta Producto 2: SafeApp**
+
+* **Icono sugerido:** casco seguridad o checklist
+* **Bullets claramente visibles:**
+
+  * Checklist digital personalizado.
+  * Registro inmediato y trazable de incidentes.
+  * Control y seguimiento automático de EPP.
+  * Reducción significativa de accidentes.
+
+---
+
+### 🔹 **Tarjeta Producto 3: WAIhouse**
+
+* **Icono sugerido:** cámara o caja de inventario
+* **Bullets claros:**
+
+  * Automatización de bodegas con IA.
+  * Inventarios automáticos y precisos (visión computacional).
+  * Integración simple con ERP mineros (SAP/Oracle).
+  * Altamente escalable a todas las faenas.
+
+---
+
+### 🔹 **Tarjeta Producto 4: Mining360**
+
+* **Icono sugerido:** dashboard, gráficos o minería
+* **Bullets claramente visibles:**
+
+  * Dashboard centralizado de KPIs mineros.
+  * Control en tiempo real de procesos operativos.
+  * Seguimiento de activos y personal inmediato.
+  * Insights basados en Big Data e IA.
+
+---
+
+## 🟩 **Diseño Visual y Animaciones**
+
+* Usa fondo oscuro consistente (#111827).
+* Tarjetas claras, elegantes (blanco/gris claro), con animación suave al aparecer (fade-up Framer Motion).
+* Iconos minimalistas (puedes usar librerías tipo `react-icons` o placeholders iniciales).
+* Textos principales en fuente Montserrat o Inter.
+* Usa Tailwind CSS para espaciado, márgenes, diseño limpio y responsive.
+
+---
+
+## 🟩 **Interactividad y Responsividad**
+
+* Slide responsive para desktop y móvil.
+* Al pasar cursor o tocar en móvil, tarjeta hace una animación sutil (scale ligeramente mayor).
+* El texto en bullets debe ser claro y breve (máximo una línea por bullet).
+
+---
+
+## 🟩 **Criterios de éxito (verificar)**
+
+* Nuevo componente React claramente organizado (`<SlideReadyToSell />`).
+* Slide visualmente atractivo, profesional, responsive.
+* Animaciones suaves (fade-in o similares usando Framer Motion).
+* Información del slide perfectamente clara y bien estructurada.
+
+---
+
+### 🔔 **IMPORTANTE**:
+
+Confirma claramente cuando este **Paso 2** esté listo en el chat de Replit, para avanzar posteriormente al **Paso 3**.
+
+---
+
+✅ **Entrega esto ahora directamente a Replit**, y avanzamos al siguiente paso cuando te confirmen que está terminado.

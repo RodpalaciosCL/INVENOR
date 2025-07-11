@@ -1,0 +1,100 @@
+Datos para el recuadro “Caso de Negocio – Luminarias BHP Spence”
+(extraídos de BHP_SPENCE_LUMINARIAS.xlsx, filas de resumen)
+
+Inversión Requerida
+Concepto	Valor
+Inversión Total (12 meses)	$ 65 300 000 CLP
+Período	12 meses (renovable)
+Modalidad	Financiamiento mensual
+
+Indicadores Clave
+Indicador	Cálculo	Resultado
+ROI Anual	390 700 000 / 65 300 000	600 %
+Margen de Utilidad	390 700 000 / 456 000 000	85 %
+Recuperación	65 300 000 / 32 526 667	≈ 2 meses
+Flujo de Caja	—	Positivo desde mes 1
+
+Componentes de la Inversión
+%	Rubro	Total CLP	Pago
+46 %	Personal & Operación	$ 30 000 000	$ 2 500 000 / mes
+42 %	Software & Licencias	$ 27 600 000	$ 2 300 000 / mes
+6 %	Hardware & Insumos	$ 4 000 000	$ 333 333 / mes
+6 %	Otros (Pasajes, Movilización, Registro)	$ 3 700 000	Pago inicial
+
+Proyección Financiera (12 meses)
+Concepto	Mensual (CLP)	Anual (CLP)
+Costos Totales	$ 5 473 333	$ 65 300 000
+Ingresos Proyectados	$ 38 000 000	$ 456 000 000
+UTILIDAD NETA	$ 32 526 667	$ 390 700 000
+
+Fortalezas del Proyecto
+Cliente corporativo sólido (BHP)
+
+Flujo de caja positivo inmediato
+
+ROI ≈ 600 % y pay-back ≈ 2 meses
+
+Alta probabilidad de extensión a otras faenas y contratos globales
+
+Interés activo de Codelco, Antofagasta Minerals y BHP en replicar la solución
+
+Recomendación
+Proyecto de automatización de luminarias con rentabilidad y retorno excepcionales. Contrato sin plazo fijo, escalable y con enorme potencial de expansión regional y global.
+
+📋 Instrucciones a Replit (actualizar tarjeta)
+Información Financiera
+
+ts
+Copiar
+Editar
+valorServicio = "CLP 38.000.000 mensuales";
+costoImplementacion = "CLP 5.473.333 mensuales";
+Cuadro “Inversión Requerida / Indicadores”
+
+Inversión total → 65.300.000 CLP
+
+ROI Anual → 600 %
+
+Margen de Utilidad → 85 %
+
+Recuperación → ≈ 2 meses
+
+Componentes
+
+json
+Copiar
+Editar
+[
+  { "label": "Personal & Operación", "pct": 46, "total": 30000000, "monthly": 2500000 },
+  { "label": "Software & Licencias", "pct": 42, "total": 27600000, "monthly": 2300000 },
+  { "label": "Hardware & Insumos",   "pct": 6,  "total": 4000000,  "monthly": 333333 },
+  { "label": "Otros",                "pct": 6,  "total": 3700000,  "payment": "Inicial" }
+]
+Fortalezas – añade chips:
+
+“Interés de Codelco, AMSA y BHP”
+
+“ROI ≈ 600 %”
+
+Título
+
+“Caso de Negocio – Automatización de Luminarias Campamento Spence BHP”
+
+Con estos valores el recuadro quedará alineado con los otros dos casos y con los datos reales del Excel.
+
+
+
+
+
+
+
+
+
+
+
+
+Herramientas
+
+
+
+ChatGPT puede cometer errores. Considera verificar la información importante.

@@ -1,0 +1,210 @@
+AngloAmerican – Robots Inspección Cintas (Arquitectura técnica)
+Arquitectura general
+
+Plataforma central de orquestación y monitoreo (servidor web)
+
+Robots con unidad embebida ARM/Linux
+
+Sensores industriales conectados por bus CAN
+
+Cámaras de alta definición + infrarrojas con módulo IA embebido
+
+Comunicaciones por 4G/5G industrial con fallback WiFi mesh
+
+Interfaz SCADA (OPC UA) para reportar a la sala de control
+
+Base de datos centralizada para logs de fallas y video clips
+
+Panel web de visualización de alertas (compatible tablets mineras)
+
+Seguridad
+
+Autenticación multifactor para control remoto
+
+Encriptación TLS extremo a extremo
+
+Registro de auditoría
+
+Certificaciones ISO 27001
+
+Módulos de software
+
+Navegación semiautónoma
+
+Detección de anomalías con redes neuronales convolucionales
+
+Reporte de datos estructurados (alertas)
+
+Transmisión de video comprimido en tiempo real
+
+Módulo de autodiagnóstico de fallas
+
+Módulo de mantenimiento remoto OTA (Over-the-Air Updates)
+
+🔶 BHP Spence – Warehouse AI (Arquitectura técnica)
+Arquitectura general
+
+Cámaras IA conectadas a edge device (Jetson / Raspberry Industrial)
+
+Sistema de gestión cloud con backend en AWS/Azure
+
+Motor de IA para detección de objetos y clasificación
+
+API REST para integración ERP SAP u Oracle
+
+Base de datos SQL para tracking inventario
+
+Gateways IoT para lectura de códigos QR y RFID
+
+Panel administrativo web responsive
+
+Seguridad
+
+Encriptación de video en reposo
+
+Roles y permisos diferenciados (operador vs administrador)
+
+Logs de auditoría
+
+Certificaciones ISO 9001 e ISO 27001
+
+Módulos de software
+
+Control de stock en tiempo real
+
+Generación de órdenes de reposición automática
+
+Módulo de auditoría de entradas/salidas
+
+Dashboard de analítica
+
+Alertas automáticas de desabastecimiento
+
+Historial completo de movimientos
+
+🔶 BHP Spence – Luminarias IoT (Arquitectura técnica)
+Arquitectura general
+
+Red mallada LoRa o Zigbee para comunicación de luminarias
+
+Gateway IoT con SIM industrial
+
+Plataforma de control centralizada en la nube
+
+Sensores de movimiento, temperatura, consumo eléctrico integrados
+
+Backend serverless en AWS (API Gateway + Lambda)
+
+Dashboard visual de estado y alarmas
+
+Integración con políticas ESG de la minera
+
+Seguridad
+
+Autenticación PKI (Public Key Infraestructure)
+
+Cifrado de extremo a extremo
+
+Certificación IP66/IP67 de hardware (ambientes polvorientos)
+
+Módulos de software
+
+Encendido/apagado programable
+
+Monitor de consumo por área
+
+Alarmas de falla de luminarias
+
+Mantenimiento predictivo
+
+Reporte ESG
+
+🔶 HotelCommander (Arquitectura técnica)
+Arquitectura general
+
+Plataforma cloud multi-tenant
+
+Frontend en ReactJS / mobile app Flutter
+
+Backend en Node.js / Python con base de datos relacional
+
+APIs para integración con sistemas de RRHH y transportes
+
+Módulo reservas con algoritmo de optimización
+
+Panel administrativo con control de usuarios
+
+Seguridad
+
+Autenticación OAuth 2.0
+
+Logs de acceso con trazabilidad completa
+
+Encriptación AES-256
+
+Backups automáticos diarios
+
+Módulos de software
+
+Reservas y check-in
+
+Gestión turnos de alimentación
+
+Reportes de ocupación y rotación
+
+Validación sanitaria (protocolo COVID, etc.)
+
+Dashboards de indicadores operacionales
+
+🔶 RecetApp (Arquitectura técnica)
+Arquitectura general
+
+SaaS multicliente
+
+Servidores en AWS con redundancia geográfica
+
+Base de datos relacional PostgreSQL
+
+Módulo de recetas electrónicas con validación digital
+
+Integración con sistemas de salud (mutualidades, clínicas)
+
+API para farmacias
+
+Panel de gestión con trazabilidad completa
+
+Seguridad
+
+Autenticación federada SAML
+
+Certificados HL7/HIPAA
+
+Logs de auditoría de transacciones
+
+Backups en 3 zonas de disponibilidad
+
+Módulos de software
+
+Control de stock farmacia
+
+Reporte de recetas dispensadas
+
+Gestión de pedidos
+
+Alertas de vencimientos
+
+Reportes mensuales a mutualidades
+
+🔶 Financiero - Detalle operacional complementario
+Costos y estructura
+
+Personal especializado: ingenieros eléctricos, mecatrónicos, desarrolladores IA, PM senior
+
+Gastos de operación: arriendos, insumos, licencias, cloud
+
+Marketing & representación: 6% de presupuesto total
+
+Desarrollo y hardware: 18% presupuesto total (sensores, cámaras, placas, infraestructura)
+
+Ticket promedio proyectos: USD 50K–84K/mes con contratos 36 meses renovables
+

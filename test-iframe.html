@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Iframe - Airontech</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .iframe-container {
+            width: 100%;
+            height: 80vh;
+            border: 2px solid #f68034;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .info {
+            background: #2a2a2a;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .mobile-simulator {
+            max-width: 375px;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            .iframe-container {
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="info">
+        <h2>🧪 Test Iframe - Airontech Chatbot</h2>
+        <p><strong>Objetivo:</strong> Verificar que el chatbot "Asistente AI" sea visible en iframe</p>
+        <p><strong>Debe verse:</strong> Botón naranja con texto "Asistente AI" / "AI" y efectos de parpadeo</p>
+        <p><strong>Posición esperada:</strong> Esquina inferior derecha, bien visible (no cortado)</p>
+    </div>
+
+    <div class="iframe-container mobile-simulator">
+        <iframe 
+            src="http://localhost:5000" 
+            title="Airontech Pitch Deck"
+            allow="fullscreen"
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <div class="info">
+        <h3>✅ Lista de verificación:</h3>
+        <ul>
+            <li>☐ Chatbot visible en esquina inferior derecha</li>
+            <li>☐ Texto "Asistente AI" (desktop) o "AI" (mobile) visible</li>
+            <li>☐ Efectos de parpadeo funcionando</li>
+            <li>☐ No cortado por barras del navegador</li>
+            <li>☐ Clickeable y funcional</li>
+        </ul>
+    </div>
+</body>
+</html>
